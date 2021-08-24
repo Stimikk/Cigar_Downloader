@@ -1,11 +1,11 @@
 # Cigar_Downloader
-Multistage file downloader
+Multistage malware downloader
 
 
   ! informational and educational purposes only !
 
 
-Cigar is a tool that create a multistage Program downloader.This tool will generate other scripts, 
+Cigar is a tool that create a multistage malware downloader.This tool will generate other scripts, 
 change some attributes in PE header of your file and encrypt it.
 
 Requirements:
@@ -26,8 +26,8 @@ Cigar will create two folders, stage_1 and stage_2
 In stage_1, cigar will create the scripts that are responsible for execute the steps.
 The first step is download a script that will create task in windows scheduler; this task will be 
 executed in the next minute. During your execution, the task lock the screen, this happen to miss the
-user attention for next actions, behind the scenes, the task download the encrypted program from 
-stage_2, decrypt it and create other task. This other task will execute your program in the next 
+user attention for next actions, behind the scenes, the task download the encrypted malware from 
+stage_2, decrypt it and create other task. This other task will execute your malware in the next 
 minute.
 
 After Cigar create the folders with the files, copy them to your web context to be downloaded. If 
